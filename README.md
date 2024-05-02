@@ -1,0 +1,1 @@
+# Predicting the Original Appearance of Damaged Historical Documents: New Task, Dataset, and Solution
