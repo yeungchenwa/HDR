@@ -1,21 +1,33 @@
 <div align=center>
 
-# Predicting the Original Appearance of Damaged Historical Documents: New Task, Dataset, and Solution
+# Predicting the Original Appearance of Damaged Historical Documents
 
 </div>
 
-## Highlight 🌟
+## 🌟 Highlight
 
-## News 📰
+## 📰 News
 
-## Gallery 🖼️
+## 🖼️ Gallery
 
-## HDR28K 📊
+## 📊 HDR28K
 ```bash
 Coming soon ...
 ```
 
-## DiffHDR 📺
+## 🔥 Model Zoo
+
+## 🚧 Installation
+
+## 📺 Inference
 ```bash
 Coming soon ...
 ```
+
+## 💙 Acknowledgement
+
+## ⛔️ Copyright
+
+## 📇 Citation
+
+## 🌟 Star Rising
