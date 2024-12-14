@@ -11,15 +11,14 @@
 ## 🖼️ Gallery
 
 ## 📊 HDR28K
-```bash
-Coming soon ...
-```
 
 ## 🔥 Model Zoo
 
 ## 🚧 Installation
 
 ## 📺 Inference
+
+## 📏 Evaluation
 ```bash
 Coming soon ...
 ```
