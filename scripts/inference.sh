@@ -1,0 +1,14 @@
+python inference.py \
+    --seed=123 \
+    --device="cuda:0" \
+    --image_path="examples/0_damaged_img.png" \
+    --mask_image_path="examples/0_mask_img.png" \
+    --content_image_path="examples/0_content_img.png" \
+    --save_dir="results" \
+    --content_mask_guidance_scale=1.5 \
+    --degraded_guidance_scale=1.2 \
+    --vis_all \
+    --ckpt_path="ckpt/unet" \
+    --pipeline="DPM-Solver" \
+    --classifier_free \
+    --num_inference_steps=20
