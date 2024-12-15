@@ -1,6 +1,7 @@
 # Initially taken from Github's Python gitignore file
 train_scripts/
 outputs/
+results/
 run_sh/
 ckpt/
 eval.sh

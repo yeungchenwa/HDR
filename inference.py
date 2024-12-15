@@ -35,9 +35,6 @@ def main(args):
     image_tensor = F.normalize(F.to_tensor(image), [0.5], [0.5]).unsqueeze(0)
     mask_image_tensor = F.normalize(F.to_tensor(mask_image), [0.5], [0.5]).unsqueeze(0)
     content_image_tensor = F.normalize(F.to_tensor(content_image), [0.5], [0.5]).unsqueeze(0)
-    if args.gt_image_path is not None:
-        gt_image = Image.open(args.gt_image_path).convert('RGB')
-        gt_image_tensor = F.normalize(F.to_tensor(gt_image), [0.5], [0.5]).unsqueeze(0)
 
     image_tensor = image_tensor.to(device)
     mask_image_tensor = mask_image_tensor.to(device)
@@ -56,14 +53,10 @@ def main(args):
         num_inference_steps=args.num_inference_steps,
         output_type="pil",
     ).images[0]
+
     # save_result
-    image_name = args.image_path.split('/')[-1]
-    gt_image_tensor = None if args.gt_image_path is None else gt_image_tensor
-    if args.vis_all:
-        save_image(save_dir=args.save_dir, image_names=[f"out_all_{image_name}"], degraded_images=image_tensor, \
-                    char_mask_images=mask_image_tensor, content_images=content_image_tensor, \
-                    output_images=[image], gt_images=gt_image_tensor)
-    image.save(f"{args.save_dir}/out_single_{image_name}")
+    image_name = args.image_path.split('/')[-1].split('.')[0]
+    image.save(f"{args.save_dir}/{image_name}_repaired_img.png")
 
 
 if __name__ == "__main__":
@@ -96,7 +89,6 @@ if __name__ == "__main__":
     parser.add_argument("--image_path", type=str, default=None)
     parser.add_argument("--mask_image_path", type=str, default=None)
     parser.add_argument("--content_image_path", type=str, default=None)
-    parser.add_argument("--gt_image_path", type=str, default=None)
     
     args = parser.parse_args()
 
