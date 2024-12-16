@@ -1,0 +1,5 @@
+transformers==4.33.1
+accelerate==0.23.0
+diffusers==0.22.0
+opencv-python
+pillow==9.5.0
