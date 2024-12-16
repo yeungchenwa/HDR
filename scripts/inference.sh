@@ -7,7 +7,6 @@ python inference.py \
     --save_dir="results" \
     --content_mask_guidance_scale=1.5 \
     --degraded_guidance_scale=1.2 \
-    --vis_all \
     --ckpt_path="ckpt/unet" \
     --pipeline="DPM-Solver" \
     --classifier_free \

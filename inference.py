@@ -64,8 +64,6 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=123)
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--save_dir", type=str, default=None)
-    parser.add_argument("--vis_all", action="store_true", \
-                        help="Whether to visualize the ori image, mask, content and result on one image.")
     # model
     parser.add_argument("--ckpt_path", type=str, default=None)
     parser.add_argument("--image_channel", type=int, default=3)

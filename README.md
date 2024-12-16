@@ -81,6 +81,19 @@ pip install -r requirements.txt
 ```
 
 ## 📺 Inference
+Using DiffHDR for damaged historical documents repair (Some examples including damaged images, mask images, and content images are provided in `/examples`):
+```bash
+sh scripts/inference.sh
+```
+- `device`: CUDA or CPU used for inference,
+- `image_path`: The damaged image path.
+- `mask_image_path`: The masked image path.
+- `content_image_path`: The content image path.
+- `save_dir`: The directory for saving repaired image.
+- `content_mask_guidance_scale`: The guidance scale of content image and masked image.
+- `degraded_guidance_scale`: The guidance scale of damaged image.
+- `ckpt_path`: The unet checkpoint path.
+- `num_inference_steps`: The number of inference steps.
 
 ## 📊 HDR28K
 ```bash
