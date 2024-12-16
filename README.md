@@ -24,8 +24,18 @@
 </p>
 
 ## 🌟 Highlight
+![Vis_1](figures/highlight_0.png)
+![Vis_2](figures/highlight_1.png)
++ We introduce a <u>H</u>istorical <u>D</u>ocument <u>R</u>epair **(HDR)** task,
+which endeavors to predict the original appearance of
+damaged historical document images.
++ We build a large-scale historical document repair dataset,
+termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs with **character-level annotations** and **multi-style degradation**.
++ 🔥🔥🔥 We propose a <u>Diff</u>usion-based <u>H</u>istorical <u>D</u>ocument <u>R</u>epair method **(DiffHDR)**, which augments the DDPM framework with semantic and spatial information
 
 ## 📰 News
+- **2024.12.17**: Release inference code.   
+- **2024.12.10**: 🎉🎉 Our [paper]() is accepted by AAAI2025.   
 
 ## 🖼️ Gallery
 
