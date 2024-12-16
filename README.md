@@ -108,9 +108,22 @@ Coming soon ...
 ## 🖼️ Gallery
 
 ## 💙 Acknowledgement
+- [diffusers](https://github.com/huggingface/diffusers)
 
 ## ⛔️ Copyright
+- This repository can only be used for non-commercial research purposes.
+- For commercial use, please contact Prof. Lianwen Jin (eelwjin@scut.edu.cn).
+- Copyright 2024, [Deep Learning and Vision Computing Lab (DLVC-Lab)](http://www.dlvc-lab.net), South China University of Technology. 
 
 ## 📇 Citation
+```
+@inproceedings{yang2024fontdiffuser,
+  title={Predicting the Original Appearance of Damaged Historical Documents},
+  author={Yang, Zhenhua and Peng, Dezhi and Shi, Yongxin and Zhang, Yuyi and Liu, Chongyu and Jin, Lianwen},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  year={2025}
+}
+```
 
 ## 🌟 Star Rising
+[![Star Rising](https://api.star-history.com/svg?repos=yeungchenwa/HDR&type=Timeline)](https://star-history.com/#yeungchenwa/HDR&Timeline)
