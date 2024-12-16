@@ -96,6 +96,7 @@ sh scripts/inference.sh
 - `num_inference_steps`: The number of inference steps.
 
 ## 📊 HDR28K
+![HDR28K](figures/HDR28K.png)
 ```bash
 Coming soon ...
 ```
@@ -104,8 +105,6 @@ Coming soon ...
 ```bash
 Coming soon ...
 ```
-
-## 🖼️ Gallery
 
 ## 💙 Acknowledgement
 - [diffusers](https://github.com/huggingface/diffusers)
