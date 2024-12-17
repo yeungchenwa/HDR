@@ -44,7 +44,7 @@ termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs wit
 - [ ] Traning Code. (Maybe release, due to the copyright)
 
 ## 🔥 Model Zoo
-| **Model**                                    | **chekcpoint** | **status** |
+| **Model**                                    | **checkpoint** | **status** |
 |----------------------------------------------|----------------|------------|
 | **DiffHDR**                              | [GoogleDrive](https://drive.google.com/drive/folders/1ArP21T7vyTpbPb5qC5VV76pMUsQd4tCx?usp=sharing) / [BaiduYun:x62f](https://pan.baidu.com/s/1XpoGvQHruOQjzJDEymsXzg) | Released  |
 
