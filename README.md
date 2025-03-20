@@ -18,6 +18,7 @@
    <strong><a href="#🖼️-Gallery">🖼️ Gallery </a></strong> •
    <strong><a href="#📊-HDR28K">📊 HDR28K </a></strong> •
    <strong><a href="#🔥-Model-Zoo">🔥 Model Zoo</a></strong> •
+   <strong><a href="#🔥-Dataset-Zoo">🔥 Dataset Zoo</a></strong> •
    <strong><a href="#🚧-Installation">🚧 Installation</a></strong> •
    <strong><a href="#📺-Inference">📺 Inference</a></strong> •
    <strong><a href="#📏-Evaluation">📏 Evaluation</a></strong>
@@ -34,19 +35,46 @@ termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs wit
 + 🔥🔥🔥 We propose a <u>Diff</u>usion-based <u>H</u>istorical <u>D</u>ocument <u>R</u>epair method **(DiffHDR)**, which augments the DDPM framework with semantic and spatial information
 
 ## 📰 News
+- **2025.03.20**: 🎉🎉 The Historical Document Repair dataset [HDR28K]() is released!
 - **2024.12.17**: Release inference code.   
-- **2024.12.10**: 🎉🎉 Our [paper]() is accepted by AAAI2025.   
+- **2024.12.10**: 🎉🎉 Our [paper](https://arxiv.org/abs/2412.11634) is accepted by AAAI2025.   
 
 ## 🏗️ TODO List
 - [x] Inference Code.
-- [ ] HDR28K Dataset Release.
-- [ ] Repair Demo.
-- [ ] Traning Code. (Maybe release, due to the copyright)
+- [x] HDR28K Dataset Release.
 
 ## 🔥 Model Zoo
 | **Model**                                    | **chekcpoint** | **status** |
 |----------------------------------------------|----------------|------------|
 | **DiffHDR**                              | [GoogleDrive](https://drive.google.com/drive/folders/1ArP21T7vyTpbPb5qC5VV76pMUsQd4tCx?usp=sharing) / [BaiduYun:x62f](https://pan.baidu.com/s/1XpoGvQHruOQjzJDEymsXzg) | Released  |
+
+## 🔥 Dataset Zoo
+| **Model**                                    | **chekcpoint** | **status** |
+|----------------------------------------------|----------------|------------|
+| **HDR28K**                              | [BaiduYun:x62f](https://pan.baidu.com/s/1XpoGvQHruOQjzJDEymsXzg) | Released  |
+
+The dataset file structure is as followed:
+```bash
+- character_missing
+  - test
+    - char_mask_images
+    - content_images
+    - degraded_images
+    - original_images
+  - train
+    - char_mask_images
+    - content_images
+    - degraded_images
+    - original_images
+- ink erosion
+  - similar to 'character_missing'
+- paper damage
+  - similar to 'character_missing'
+- test_image_only_damage
+  - hole_M5_image_2000_32_467_544_979_degrade0.png
+  - ......
+```
+**NOTE**: The `test_image_only_damage` contains the gt image after replacing the non-damaged region of $x_r$ by the target $x_{target}$.
 
 ## 🚧 Installation
 ### Prerequisites (Recommended)
@@ -97,9 +125,6 @@ sh scripts/inference.sh
 
 ## 📊 HDR28K
 ![HDR28K](figures/HDR28K.png)
-```bash
-Coming soon ...
-```
 
 ## 📏 Evaluation
 ```bash
