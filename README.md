@@ -39,10 +39,6 @@ termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs wit
 - **2024.12.17**: Release inference code.   
 - **2024.12.10**: 🎉🎉 Our [paper](https://arxiv.org/abs/2412.11634) is accepted by AAAI2025.   
 
-## 🏗️ TODO List
-- [x] Inference Code.
-- [x] HDR28K Dataset Release.
-
 ## 🔥 Model Zoo
 | **Model**                                    | **chekcpoint** | **status** |
 |----------------------------------------------|----------------|------------|
