@@ -35,7 +35,7 @@ termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs wit
 + 🔥🔥🔥 We propose a <u>Diff</u>usion-based <u>H</u>istorical <u>D</u>ocument <u>R</u>epair method **(DiffHDR)**, which augments the DDPM framework with semantic and spatial information
 
 ## 📰 News
-- **2025.03.20**: 🎉🎉 The Historical Document Repair dataset [HDR28K]() is released!
+- **2025.03.20**: 🎉🎉 The Historical Document Repair dataset [HDR28K](https://pan.baidu.com/s/1olvoz-We-tqLRIfGR0CmvQ) is released!
 - **2024.12.17**: Release inference code.   
 - **2024.12.10**: 🎉🎉 Our [paper](https://arxiv.org/abs/2412.11634) is accepted by AAAI2025.   
 
@@ -51,7 +51,7 @@ termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs wit
 ## 🔥 Dataset Zoo
 | **Model**                                    | **chekcpoint** | **status** |
 |----------------------------------------------|----------------|------------|
-| **HDR28K**                              | [BaiduYun:x62f](https://pan.baidu.com/s/1XpoGvQHruOQjzJDEymsXzg) | Released  |
+| **HDR28K**                              | [BaiduYun:upm9](https://pan.baidu.com/s/1olvoz-We-tqLRIfGR0CmvQ) | Released  |
 
 The dataset file structure is as followed:
 ```bash
