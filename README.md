@@ -35,6 +35,7 @@ termed **HDR28K**, which includes <u>28,552</u> damaged-repaired image pairs wit
 + 🔥🔥🔥 We propose a <u>Diff</u>usion-based <u>H</u>istorical <u>D</u>ocument <u>R</u>epair method **(DiffHDR)**, which augments the DDPM framework with semantic and spatial information
 
 ## 📰 News
+- **2026.07.15**: 🎉 We propose [UniHIR](https://aclanthology.org/2026.acl-long.1254/), a Unified MLLM for end-to-end Historical Inscription Restoration.
 - **2025.07.15**: 🎉 We propose a novel historical document restoration method, [AutoHDR](https://arxiv.org/abs/2507.05108). Welcome to try our [demo](http://121.41.49.212:8432/)!
 - **2025.03.20**: 🎉🎉 The Historical Document Repair dataset [HDR28K](https://pan.baidu.com/s/1olvoz-We-tqLRIfGR0CmvQ) is released!
 - **2024.12.17**: Release inference code.   
@@ -71,7 +72,7 @@ The dataset file structure is as followed:
   - hole_M5_image_2000_32_467_544_979_degrade0.png
   - ......
 ```
-**NOTE**: The `test_image_only_damage` contains the gt image after replacing the non-damaged region of $x_r$ by the target $x_{target}$.
+**NOTE**: The `test_image_only_damage` contains the gt image after replacing the non-damaged region of xrx_r by the target xtargetx_{target}.
 
 ## 🚧 Installation
 ### Prerequisites (Recommended)
